@@ -1,10 +1,4 @@
 # Library-Management-System
-Let's craft a comprehensive README.md file for your Library Management System project, designed to be informative and engaging for anyone viewing your GitHub repository. This README will include all necessary details such as project description, setup instructions, features, and how to contribute.
-
-### README.md
-
-```markdown
-# Library Management System
 
 ## Project Description
 The Library Management System is an automated system designed to manage and maintain the daily operations of a library. This system aids in managing books, faculty, students, and staff, streamlining processes like book checkouts, returns, and member management.
@@ -25,8 +19,6 @@ The Library Management System is an automated system designed to manage and main
 - **Fine Calculation:** Automatically calculate and impose fines based on the return date of the books.
 
 ## Requirements
-
-<img width="422" alt="image" src="https://github.com/imaadiiii/Library-Management-System/assets/98867229/ac6b5bc4-e1bc-4a39-afd4-96261acccb54">
 
 
 
