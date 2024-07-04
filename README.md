@@ -1,4 +1,4 @@
-ion# Library-Management-System
+# Library-Management-System
 
 ## Project Description
 The Library Management System is an automated system designed to manage and maintain the daily operations of a library. This system aids in managing books, faculty, students, and staff, streamlining processes like book checkouts, returns, and member management.
@@ -56,37 +56,34 @@ ER Diagram
 
 Schema Diagram
 ![Schema Diagram](DETAILED%20DIAGRAMS/SCHEMA%20DIAGRAM.jpeg "Schema Diagram")
-
 ## Snapshots and Results
 ### SQL Queries
 1. To select name, designation and date of joining of staff
-![SQL Query 1](SNAPSHOTS:RESULTS/SQL%20qeries/1ST.jpeg "SQL Query 1")
+   ![SQL Query 1](SNAPSHOTS:RESULTS/SQL%20qeries/1ST.jpeg "SQL Query 1")
 
-2. To select name of books and author of the books. 
-![SQL Query 2a](SNAPSHOTS:RESULTS/SQL%20qeries/2ND%20a.jpeg "SQL Query 2a")
-![SQL Query 2b](SNAPSHOTS:RESULTS/SQL%20qeries/2ND%20b.jpeg "SQL Query 2b")
+2. To select name of books and author of the books.
+   ![SQL Query 2a](SNAPSHOTS:RESULTS/SQL%20qeries/2ND%20a.jpeg "SQL Query 2a")
+   ![SQL Query 2b](SNAPSHOTS:RESULTS/SQL%20qeries/2ND%20b.jpeg "SQL Query 2b")
 
 3. To select periodicals released in the month of ‘Dec’.
-![SQL Query 3rd](SNAPSHOTS:RESULTS/SQL%20qeries/3RD.jpeg "SQL Query 3rd")
+   ![SQL Query 3rd](SNAPSHOTS:RESULTS/SQL%20qeries/3RD.jpeg "SQL Query 3rd")
 
 4. To find the fine on each student.
-![SQL Query 4th](SNAPSHOTS:RESULTS/SQL%20qeries/4TH.jpeg "SQL Query 4th")
+   ![SQL Query 4th](SNAPSHOTS:RESULTS/SQL%20qeries/4TH.jpeg "SQL Query 4th")
 
 5. To find number of books issued by students in ascending order of number of books issued.
-![SQL Query 5th](SNAPSHOTS:RESULTS/SQL%20qeries/5TH.jpeg "SQL Query 5th")
+   ![SQL Query 5th](SNAPSHOTS:RESULTS/SQL%20qeries/5TH.jpeg "SQL Query 5th")
 
 ### PL/SQL Queries
-
 1. To display the name of book, rack number and number of books available of the author entered by the user.
-![PL/SQL Query 1a](SNAPSHOTS:RESULTS/PL:SQL%20QUERIES/1ST%20a.jpeg "PL/SQL Query 1a")
-![PL/SQL Query 1b](SNAPSHOTS:RESULTS/PL:SQL%20QUERIES/1ST%20b.jpeg "PL/SQL Query 1b")
+   ![PL/SQL Query 1a](SNAPSHOTS:RESULTS/PL:SQL%20QUERIES/1ST%20a.jpeg "PL/SQL Query 1a")
+   ![PL/SQL Query 1b](SNAPSHOTS:RESULTS/PL:SQL%20QUERIES/1ST%20b.jpeg "PL/SQL Query 1b")
 
-2. To find the fine from issue date and return date(7 days: no fine, 8-15 days: Rs.1/day, 16-30 days: Rs. 2/day, after 30 days Rs.5).
-![PL/SQL Query 2nd](SNAPSHOTS:RESULTS/PL:SQL%20QUERIES/2ND.jpeg "PL/SQL Query 2nd")
+2. To find the fine from issue date and return date (7 days: no fine, 8-15 days: Rs.1/day, 16-30 days: Rs. 2/day, after 30 days Rs.5).
+   ![PL/SQL Query 2nd](SNAPSHOTS:RESULTS/PL:SQL%20QUERIES/2ND.jpeg "PL/SQL Query 2nd")
 
 3. Create a trigger to add the details of staff to store the details when a staff member leaves the job or when the details are updated.
-
-![PL/SQL Query 3rd](SNAPSHOTS:RESULTS/PL:SQL%20QUERIES/3RD.jpeg "PL/SQL Query 3rd")
+   ![PL/SQL Query 3rd](SNAPSHOTS:RESULTS/PL:SQL%20QUERIES/3RD.jpeg "PL/SQL Query 3rd")
 
 
 ## Technologies Used
