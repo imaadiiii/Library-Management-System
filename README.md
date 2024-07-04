@@ -106,10 +106,28 @@ Schema Diagram
    ```sql
    sqlplus username/password @setup.sql
    ```
-4. **Run the application**
-   ```bash
-   python app.py
-   ```
+  
+# Conclusion
+
+The developed library database management system provides easy access to the librarian to get important information regarding the number of books, number of employees, the salaries of the employees and all other information to make the management of the library easier and an almost automated process. Through the database, the librarian doesn’t have to manually handle tasks that were once time-taking. Overall, a well-designed library management system can help libraries operate more efficiently, provide better service to patrons, and improve the overall management of the library's resources. However, developing a robust and effective system can be a complex and time-consuming process, requiring careful planning, development, and testing.
+
+# Limitations
+
+- **Limited scalability:** SQLPlus is designed to work with small to medium-sized databases. As the database grows larger, SQLPlus may not be the best choice for managing it. It may not be able to handle large amounts of data and complex queries efficiently.
+
+- **Limited functionality:** SQLPlus is a simple tool that provides basic functionality for managing databases. While it can handle the basic functions of a library management system such as searching, adding, and deleting records, it may not be able to perform more complex tasks like generating reports, integrating with other systems, and providing advanced security features.
+
+- **Lack of graphical user interface:** SQLPlus is a command-line tool that lacks a graphical user interface (GUI). This makes it less user-friendly than other database management tools that provide a GUI. Users who are not familiar with SQLPlus may find it difficult to use and navigate.
+
+# Future Work
+
+- **Enhanced User Interface:** SQL*Plus is a command-line interface and lacks a graphical user interface. Developing a web-based or desktop-based graphical user interface can improve the user experience of the library management system.
+
+- **User Authentication and Authorization:** The current system does not include user authentication and authorization. Adding a login system and defining user roles and permissions can improve the security and privacy of the system.
+
+- **Advanced Search Functionality:** The current system allows for searching books and authors by their name or category. Adding advanced search functionality such as searching by ISBN, publisher, and publication date can enhance the search capability of the system.
+
+- **Integration with External Services:** Integration with external services such as online library catalogs, bookstores, and digital libraries can provide access to a wider range of resources for users.
 
 ## How to Contribute
 Interested in contributing? Great! Here are a few ways you can help out:
@@ -130,5 +148,3 @@ This project is licensed under the MIT License
 
 ## References
 - [Oracle SQLPlus Documentat](https://www.oracle.com/database/technologies/)
-- [Python Documentation](https://www.python.org/doc/)
-```
