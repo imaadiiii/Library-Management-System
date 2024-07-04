@@ -21,40 +21,52 @@ The Library Management System is an automated system designed to manage and main
 ## Requirements
 
 Author
+
 ![Author](Requirements/AUTHOR.jpeg "Author")
 
 Faculty
+
 ![Faculty](Requirements/FACULTY.jpeg "Faculty")
 
 Issue by Student
+
 ![Issue by Student](Requirements/ISSUE_BY%20STUDENT.jpeg "Issue by Student")
 
 Issue by Faculty
+
 ![Issue by Faculty](Requirements/ISSUE_BY_FACULTY.jpeg "Issue by Faculty")
 
 Librarian
+
 ![Librarian](Requirements/LIBRARIAN.jpeg "Librarian")
 
 Periodicals
+
 ![Periodicals](Requirements/PERIODICALS.jpeg "Periodicals")
 
 Staff
+
 ![Staff](Requirements/STAFF.jpeg "Staff")
 
 Student
+
 ![Student](Requirements/STUDENT.jpeg "Student")
 
 Writes
+
 ![Writes](Requirements/WRITES.jpeg "Writes")
 
 Book
+
 ![Book](Requirements/BOOK.jpeg "Book")
 
 ## Detailed Diagrams
 ER Diagram
+
 ![ER Diagram](DETAILED%20DIAGRAMS/ER%20DIAGRAM.jpeg "ER Diagram")
 
 Schema Diagram
+
 ![Schema Diagram](DETAILED%20DIAGRAMS/SCHEMA%20DIAGRAM.jpeg "Schema Diagram")
 
 ### SQL Queries
@@ -100,7 +112,7 @@ Schema Diagram
    ```
 2. **Navigate to the project directory**
    ```bash
-   cd LibraryManagementSystem
+   cd Library-Management-System
    ```
 3. **Set up the database**
    ```sql
