@@ -4,6 +4,7 @@
 The Library Management System is an automated system designed to manage and maintain the daily operations of a library. This system aids in managing books, faculty, students, and staff, streamlining processes like book checkouts, returns, and member management.
 
 ## Features
+
 ### General User Features
 - **Book Information Management:** Users can provide, search, add, and update book-related information in the database.
 - **Book Availability:** Users can check if a book is available before issuing, with real-time updates on availability.
@@ -151,7 +152,7 @@ Interested in contributing? Great! Here are a few ways you can help out:
 ## License
 This project is licensed under the MIT License 
 
-## Authors
+## Author
 - Aditya Raj
 
 
